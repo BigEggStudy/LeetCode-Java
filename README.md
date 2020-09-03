@@ -1,11 +1,9 @@
+[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/bigegg/leetcode-java.svg?style=flat-square&label=Windows%20Build%20Status&logo=AppVeyor)](https://ci.appveyor.com/project/BigEgg/leetcode-java)
+[![Travis Build Status](https://img.shields.io/badge/Linux%20Build%20Status-Invalid-lightgrey.svg?label=Linux%20Build%20Status&logo=travis&style=flat-square)]()
+[![Solved Problems](https://img.shields.io/badge/Solved%20Problems-14-blue.svg?style=flat-square)](https://github.com/BigEggStudy/LeetCode-Java)
+
 # LeetCode
 The Java solutions for LeetCode problems.
-
-### Algorithm
-
-| Languages | Build Status | Solved Problems |
-| --------- | ------------ | --------------- |
-|Java|[![Windows Build Status](https://img.shields.io/appveyor/ci/bigegg/leetcode-gsiou.svg?style=flat-square&label=Windows%20Build)](https://ci.appveyor.com/project/BigEgg/leetcode-gsiou)[![Linux Build Status](https://img.shields.io/badge/Linux%20Build-Invalid-lightgrey.svg?style=flat-square)]()|[![Solved Problems](https://img.shields.io/badge/Solved%20Problems-14-blue.svg?style=flat-square)](https://github.com/BigEgg/LeetCode/tree/Java)|
 
 ## Problems
 
