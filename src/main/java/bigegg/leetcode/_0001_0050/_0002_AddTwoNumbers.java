@@ -6,6 +6,8 @@
 
 package bigegg.leetcode._0001_0050;
 
+import bigegg.leetcode.ListNode;
+
 public final class _0002_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode first = new ListNode(-1);
@@ -35,14 +37,5 @@ public final class _0002_AddTwoNumbers {
         }
 
         return first.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }
