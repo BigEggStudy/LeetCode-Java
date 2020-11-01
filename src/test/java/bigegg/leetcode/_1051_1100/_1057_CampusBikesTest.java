@@ -1,6 +1,6 @@
 package bigegg.leetcode._1051_1100;
 
-import bigegg.leetcode.assertHelper;
+import bigegg.leetcode.AssertHelper;
 import org.junit.Test;
 
 public class _1057_CampusBikesTest {
@@ -17,7 +17,7 @@ public class _1057_CampusBikesTest {
                         new int[] {1, 2},
                         new int[] {3, 3}
                 });
-        assertHelper.assertArray(new int[] {1, 0}, result);
+        AssertHelper.assertArray(new int[] {1, 0}, result);
     }
 
     @Test
@@ -35,6 +35,6 @@ public class _1057_CampusBikesTest {
                         new int[] {2, 2},
                         new int[] {2, 1}
                 });
-        assertHelper.assertArray(new int[] {0, 2, 1}, result);
+        AssertHelper.assertArray(new int[] {0, 2, 1}, result);
     }
 }

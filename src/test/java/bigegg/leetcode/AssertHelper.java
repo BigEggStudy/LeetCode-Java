@@ -2,9 +2,9 @@ package bigegg.leetcode;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class assertHelper {
+public class AssertHelper {
     public static <T> void assertArrayIgnoreLength(T[] expected, T[] actual) {
         for (int i = 0; i < expected.length; i++)
             assertEquals(expected[i], actual[i]);
@@ -35,5 +35,20 @@ public class assertHelper {
 
         for (int i = 0; i < expected.length; i++)
             assertEquals(expected[i], actual.get(i));
+    }
+
+    public static void assertList(ListNode first, int[] nums) {
+        assertNotNull(first);
+        assertNotNull(nums);
+        assertTrue(nums.length > 0);
+
+        ListNode current = first;
+        for (int num : nums) {
+            assertNotNull(current);
+            assertEquals(num, current.val);
+            current = current.next;
+        }
+
+        assertNull(current);
     }
 }

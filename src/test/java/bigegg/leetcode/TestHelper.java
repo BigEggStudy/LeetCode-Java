@@ -3,7 +3,7 @@ package bigegg.leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class testHelper {
+public class TestHelper {
     public static TreeNode GenerateTree(Integer[] nums)
     {
         if (nums == null || nums.length == 0) { return null; }
@@ -29,6 +29,23 @@ public class testHelper {
                 queue.add(node);
             }
             i += 2;
+        }
+
+        return first;
+    }
+
+    public static ListNode generateList(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return null;
+        }
+
+        int i = 0;
+        ListNode first = new ListNode(nums[i]);
+        ListNode current = first;
+
+        while (++i < nums.length) {
+            current.next = new ListNode(nums[i]);
+            current = current.next;
         }
 
         return first;
