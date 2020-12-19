@@ -60,7 +60,3 @@ public class _0445_AddTwoNumbersII {
         return newHead.next;
     }
 }
-
-// Your Codec object will be instantiated and called as such:
-// Codec codec = new Codec();
-// codec.decode(codec.encode(root));
