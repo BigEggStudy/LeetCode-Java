@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------------
-// Runtime: 1ms
-// Memory Usage: 41 MB
-// Link: https://leetcode.com/submissions/detail/414731898/
+// Runtime: 0ms
+// Memory Usage: 35.6 MB
+// Link: https://leetcode.com/submissions/detail/421331420/
 //-----------------------------------------------------------------------------
 
 package bigegg.leetcode._0851_0900;

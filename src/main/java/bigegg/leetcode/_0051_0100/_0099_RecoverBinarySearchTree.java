@@ -43,5 +43,4 @@ public class _0099_RecoverBinarySearchTree {
         first.val = second.val;
         second.val = temp;
     }
-
 }
